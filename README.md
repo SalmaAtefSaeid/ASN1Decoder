@@ -20,8 +20,8 @@ X509Certificate* x509 = [X509Certificate new];
 NSError* error;
 [rootTLSCert populateCert:[rootCert dataUsingEncoding:NSUTF8StringEncoding] error:&error];
 if (error){
-    NSString* subject = rootTLSCert.subjectDistinguishedName;
+    NSLog(@"%@", error);
 } else {
-    print(error)
+    NSString* subject = rootTLSCert.subjectDistinguishedName;
 }
 ```
