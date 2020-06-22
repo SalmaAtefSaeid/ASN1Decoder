@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ASN1Decoder.xcodeproj">
+      location = "self:/Salma/ASN1Decoder/ASN1Decoder/ASN1Decoder.xcodeproj">
    </FileRef>
 </Workspace>

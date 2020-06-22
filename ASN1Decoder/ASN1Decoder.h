@@ -2,11 +2,11 @@
 //  ASN1Decoder.h
 //  ASN1Decoder
 //
-//  Created by Filippo Maguolo on 8/29/17.
-//  Copyright © 2017 Filippo Maguolo. All rights reserved.
+//  Created by salma atef on 6/22/20.
+//  Copyright © 2020 salma atef. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for ASN1Decoder.
 FOUNDATION_EXPORT double ASN1DecoderVersionNumber;
@@ -16,3 +16,7 @@ FOUNDATION_EXPORT const unsigned char ASN1DecoderVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ASN1Decoder/PublicHeader.h>
 
+#import <ASN1Decoder/X509Certificate.h>
+#import <ASN1Decoder/PublicKey.h>
+#import <ASN1Decoder/ASN1DERDecoder.h>
+#import <ASN1Decoder/ASN1Object.h>
